@@ -28,11 +28,9 @@ A foundational calculator app to perform basic mathematical operations.
     *   Looping mechanism to keep calculating without restarting the script.
 
 ### Day 4: Student Result Evaluator (`student_result.py`)
-# Student SGPA Calculator 🎓
-
 A lightweight Python script that automatically processes multi-student rosters to calculate individual course percentages and final **Semester Grade Point Averages (SGPA)** using the standard UGC/AICTE 10-point scale.
 
-## 🚀 Features
+*   **Features:**
 * **Roster Automation**: Dynamically loops over custom student data structures.
 * **Hybrid Layout**: Correctly adapts max marks for courses with or without integrated labs (60 Mid, 70 Sem, 10 Lab).
 * **UGC/AICTE Grade Mapping**: Converts final raw percentages straight to official grade points.
