@@ -40,13 +40,12 @@ A lightweight Python script that automatically processes multi-student rosters t
 * **60-69%** ➔ 7 GP | **50-59%** ➔ 6 GP | **40-49%** ➔ 5 GP 
 * **35-39%** ➔ 4 GP | **< 35%**  ➔ 0 GP (Fail)
 
-### Day 5: Password Generator (`password_generator.py`)
-A customizable tool that generates strong, secure, and randomized passwords based on user preferences.
+### Day 5: Voter Eligibility Checker (`voter_eligibility.py`)
+A verification simulation to check if a user is legally old enough to cast a vote.
 *   **Features:**
-    *   **Customizable Length:** Allows users to specify how long they want their password to be.
-    *   **Character Inclusion Toggle:** Options to include uppercase letters, lowercase letters, numbers, and special symbols.
-    *   **Strength Evaluator:** Gives feedback on how secure the generated password is.
-
+    *   Checks age limits against regional standards.
+    *   Prompts users for country identity validation.
+    *   Displays clear registration guidance messages.
 ### Day 6: QR Code Generator (`qr_generator.py`)
 A handy script that converts text or links into high-quality scannable QR Codes.
 *   **Features:**
@@ -61,21 +60,22 @@ The classic game played against an AI opponent utilizing randomized logic.
     *   Keeps continuous score tracking across multiple rounds.
     *   Robust input validation to handle typos.
 
-### Day 8 (Part 1): Guess the Number (`guess_number.py`)
+### Day 8: Guess the Number (`guess_number.py`)
 A fun, interactive game where the player attempts to guess a hidden computer-generated number.
 *   **Features:**
     *   Dynamically provides hints (Too High / Too Low).
     *   Tracks the total number of attempts.
     *   Adjustable difficulty modes (Easy, Medium, Hard).
 
-### Day 8 (Part 2): Voter Eligibility Checker (`voter_eligibility.py`)
-A verification simulation to check if a user is legally old enough to cast a vote.
+### Day 9: Password Generator (`password_generator.py`)
+A customizable tool that generates strong, secure, and randomized passwords based on user preferences.
 *   **Features:**
-    *   Checks age limits against regional standards.
-    *   Prompts users for country identity validation.
-    *   Displays clear registration guidance messages.
+    *   **Customizable Length:** Allows users to specify how long they want their password to be.
+    *   **Character Inclusion Toggle:** Options to include uppercase letters, lowercase letters, numbers, and special symbols.
+    *   **Strength Evaluator:** Gives feedback on how secure the generated password is.
 
-### Day 9: Cricket Analysis Report (`cricket_analysis.py`)
+
+### Day 10: Cricket Analysis Report (`cricket_analysis.py`)
 A data breakdown script designed to compute and evaluate cricket statistics.
 *   **Features:**
     *   Calculates batting averages and strike rates dynamically based on runs, balls, and outs.
